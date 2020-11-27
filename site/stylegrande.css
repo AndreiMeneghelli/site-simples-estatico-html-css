@@ -1,0 +1,139 @@
+body {
+	margin:0;
+	padding:0;
+}
+hr {
+	color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 0px;
+    width: 150px;
+}
+input,
+textarea {
+	border: 6px solid #2a2a2a;
+	border-right: 1px solid #2a2a2a;
+}
+@font-face {
+    font-family: Montserrat Regular;
+    src: url(fontes/Montserrat-Regular.ttf);   
+}
+@font-face {
+	font-family: Open Sans Regular;
+    src: url(fontes/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(fontes/Montserrat-Bold.ttf); 
+}
+@font-face {
+	font-family: Open Sans Bold;
+    src: url(fontes/OpenSans-Bold.ttf);
+}
+.container {
+	width: 800px;
+}
+.topo {
+	height:415px;
+	width:100%;
+	background-color:#333333;
+	color:#FFFFFF;
+	margin:auto;
+	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.texto1,
+.texto2,
+.texto3,
+.texto5,
+.texto6,
+.texto8,
+.texto11 {
+	font-family:Montserrat Regular;
+}
+.texto4,
+.texto9,
+.texto10 {
+	font-family:Open Sans Regular;
+}
+.texto7 {
+	font-family:Montserrat Bold;
+}
+.texto1 {
+	padding-top: 80px;
+	font-size: 36px;
+}
+.texto2 {
+	padding-top: 20px;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+.texto3 {
+	font-size: 14px;
+}
+.texto4 {
+	color: #939aa5;
+	font-size: 13px;
+	line-height: 25px;
+}
+.texto5 {
+	color: #b6b6c0;
+	font-size: 14px;
+}
+.texto6 {
+	color: #111111;
+	font-size: 24px;
+}
+.texto7 {
+	font-size: 14px;
+}
+.texto8 {
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.texto9 {
+	font-size: 13px;
+	color: #FFFFFF;
+	line-height: 13px;
+}
+.texto10 {
+	font-size: 13px;
+	color: #8f96a1;
+	line-height: 13px;
+}
+.texto11 {
+	font-size: 12.58;
+	color: #f9fafb
+}
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-responsive {
+	margin:0 auto;
+}
+.circulo {
+	border-radius: 50%;
+	display: inline-block;
+	height: 65px;
+	width: 65px;
+	border: 0px solid #939aa5;
+	background-color: #939aa5;
+	cursor: pointer;
+}
+.quadrado {
+	background-color: #939aa5;
+	height: 192px;
+	width: 287px;
+	cursor: pointer;
+}
+.botao {
+	font-family: Open Sans Bold;
+	font-size: 9.93px;
+	color: #e54a39;
+	cursor: pointer;
+	background-color: #2a2a2a;
+	border: 2px solid #e54a39;
+	width: 140px;
+	height: 30px;
+}
